@@ -1,0 +1,13 @@
+ html
+ {
+  font-family: 'Coiny', cursive;
+ } 
+ #answer{
+ 	font-size: 30px;
+ 	text-align: center;
+	font-family: 'Lobster', cursive;
+
+ }
+ .resultblock{
+ 	background-image: url("bg.jpg");
+ }

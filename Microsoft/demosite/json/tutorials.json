@@ -1,0 +1,124 @@
+[
+
+  {
+    "target":"last",
+    "type":"quick1",
+    "content":"We have filled up the text box with some interesting content explaining processes to the user",
+    "chains": [
+      {
+        "element":"videoButton",
+        "action":"click"
+      }
+    ]
+  },
+
+{
+  "target":"last",
+  "toolName": "AlphaTest",
+  "type":"overlay",
+  "content": "I am a tooltip with some interesting formatting",
+  "features": [
+    {
+      "type":"div",
+      "class":"overlay",
+      "padding":"20px",
+      "font-family":"Comic Sans",
+      "background": "blue"
+    }
+  ],
+  "chains": [
+    {
+      "element":"myButton",
+      "action":"click"
+    },
+    {
+      "element":"myButton",
+      "action":"click"
+    },
+    {
+      "element":"myButton",
+      "action":"click"
+    }
+  ]
+},
+{
+  "target":"last",
+  "type":"overlay",
+  "content":"this is a simple chain",
+  "features": [
+    {
+      "type":"div",
+      "class": "overlay",
+      "id": "overlay",
+      "innerHTML": "Here is a custom overlay without too many bells and whistles"
+    }
+  ],
+  "chains": [
+    {
+      "element":"tool2",
+      "action":"click"
+    },
+    {
+      "element":"tool2",
+      "action":"click"
+    }
+  ]
+},
+{
+  "type":"q2",
+  "content": "%%%%%%%%%",
+  "target":"new",
+  "toolName": "BetaTest",
+  "features": [
+    {
+      "type":"img",
+      "class" : "img",
+      "id" : "img",
+      "src" : "http://i.imgur.com/HEAD5PU.gif"
+    },
+    {
+      "type": "text",
+      "class": "text",
+      "id": "text",
+      "innerHTML": "this is quickoverlay2."
+    }
+  ],
+  "chains": [
+    {
+      "element":"overlayButton",
+      "action":"click"
+    },
+    {
+      "element":"overlayButton",
+      "action":"click"
+    }
+  ]
+},
+
+
+{
+  "type":"q5",
+  "content": "shi.mp4",
+  "target":"new",
+  "features": [
+    {
+      "type":"video",
+      "class" : "video",
+      "id" : "video",
+      "src" : "shi.mp4",
+      "width": "70%",
+      "controls" : "controls"
+    }
+  ],
+  "chains": [
+    {
+      "element":"overlayButton",
+      "action":"mouseover"
+    },
+    {
+      "element":"imageButton",
+      "action":"click"
+    }
+  ]
+}
+]
